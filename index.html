@@ -1113,6 +1113,23 @@
             background-clip: text;
             color: transparent;
         }
+                /* Add new styles for colored buttons */
+        .float-btn.whatsapp {
+            background: #25D366; /* WhatsApp green */
+        }
+        
+        .float-btn.whatsapp:hover {
+            background: #128C7E; /* Darker green on hover */
+        }
+        
+        .float-btn.call {
+            background: #E53935; /* Red color */
+        }
+        
+        .float-btn.call:hover {
+            background: #C62828; /* Darker red on hover */
+        }
+
     </style>
 </head>
 <body>
@@ -1395,12 +1412,12 @@
     </section>
 
     <!-- Floating Buttons -->
-    <div class="floating-buttons">
-        <a href="https://wa.me/+966508054355" class="float-btn">
+      <div class="floating-buttons">
+        <a href="https://wa.me/+966508054355" class="float-btn whatsapp">
             <i class="fab fa-whatsapp icon"></i>
             <span>Chat on WhatsApp</span>
         </a>
-        <a href="tel:+966508054355" class="float-btn">
+        <a href="tel:+966508054355" class="float-btn call">
             <i class="fas fa-phone-alt icon"></i>
             <span>Call Us Now</span>
         </a>
@@ -1453,7 +1470,7 @@
             
             <!-- Developer credit added here -->
             <div class="developer-credit">
-                Crafted with <i class="fas fa-heart" style="color: #c5a880;"></i> by 
+                Developed <i class="fas fa-heart" style="color: #c5a880;"></i> by 
                 <a href="https://zomaxa.co" target="_blank">
                     <span class="zomaxa-logo">zomaxa.co</span>
                     <i class="fas fa-external-link-alt" style="font-size: 0.7rem;"></i>
